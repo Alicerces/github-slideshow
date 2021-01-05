@@ -1,0 +1,383 @@
+/*.marcador{
+	background-color: #fe9d9d;
+	border:1px solid #f94646;
+}
+
+
+.marcador2{
+	background-color: #5bf946;
+	border:1px solid #36ae26;
+}
+*/
+
+
+/*.container{
+	border: 1px solid red;
+	width: 90%;
+}
+*/
+
+*{
+  padding: 0px;
+  margin: 0px;
+  /*color: black;*/
+}
+/*.container{
+
+}*/
+
+
+
+.container {
+    /*border: 2px solid red;*/
+    width: 80%;
+    
+}
+
+/*=================================================Cabeçalho Logo=============================*/
+
+/*.cabeçalho-logo{
+  width: 90%;
+  /*border: 2px solid black;*/
+  /*margin-left: 5%;
+   /*font-family: OCR A Std, monospace;*/
+ 
+  }
+ 
+
+ .cabeçalho-logo span{
+  
+
+ }  
+ 
+
+.logo{
+	/*border:2px dashed yellow; */
+	width: 20%;
+  display: block;
+  /*font-size: 10px;*/
+}
+
+.logo h1{
+  margin-top:-2px;
+  text-shadow: 1px 0.4px black;
+
+}
+
+.Ciência{
+    box-sizing: border-box;
+    margin-top:-17%;
+  
+  width: 17%;
+  float: right;
+  /*border:1px solid red; */
+}
+
+.Ciência img{
+  margin-top: 16%;
+}
+
+
+/*========================================Menu==================================================*/
+
+
+.navbar-nav{
+  /*border: 1px solid blue;*/
+  margin-left: 0%;
+  font-size: 12px;
+  font-weight: bold;
+  width: 100%;
+
+  /*font-family: OCR A Std, monospace, arial, sans-seri;*/
+  
+}
+
+.navbar{
+/* border: 1px solid green 2px;*/
+ background: none;
+  border:none; 
+}
+
+ #barra-navegação {
+  border-top:4px solid green;
+ }
+
+
+.pill{
+  margin-bottom: 10%;
+}
+/*===================================Menu & Link =============================================*/
+
+.nav>li>a{
+  padding: 5px 7px;
+}
+  
+.navbar-default .navbar-nav>li>a{
+  color: black;
+  background:none;
+  text-shadow: 1px 0.4px black;
+  font-size: 14px;
+}
+
+.navbar-default .navbar-nav .open>a{
+    color: #000;
+    background-color: none;
+
+}
+
+.navbar-default #barra-navegação li a:hover{
+    color: green;
+    border-bottom: 3px inset green;
+    background-color: none;
+
+  
+    /*transition: all 2s;*/
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: black;
+    background:none;
+    text-shadow: 1px 0.4px black;
+}
+
+/*================Container=====================================*/
+.bem-vindo{
+  text-align: justify;
+  color: black;
+   /*border: grey 1px dashed;*/
+  margin-bottom: 50px;
+}
+.bem-vindo h1{
+  text-align: center;
+  color: black;
+  /*border:1px solid black;*/
+}
+/*============================================DG===============================================================*/
+.dg{
+  margin-left: -6px;
+  color: black;
+  width: 250px;
+
+}
+
+.dg img{
+border-radius: 10px 10px 10px 10px;
+box-shadow: 1px 1.5px 2px;
+
+
+
+}
+.dg img:hover{  
+ box-shadow: 1px 5px 10px;
+ }
+ #dg{
+
+ }
+
+.visão{
+  margin-top: 12%;
+  margin-bottom: 2%;
+  margin-left: 6%;
+}
+
+/*============================================Funcional===============================================================*/
+
+#funcional{  
+ /*border: 2px solid blue;*/
+ width: 300px;
+
+ margin-left: 2%;
+ 
+}
+
+#funcional img{
+  width:100%;
+  border-radius: 20px;
+ 
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  -moz-box-shadow:rgb(38, 57, 77) 0px 20px 30px -10px;
+   -webkit-box-shadow:rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+
+#funcional img:hover{
+
+box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  }  
+
+
+
+
+
+/*============================================Estrutura===============================================================*/
+.estrutura{
+  width: 95%;
+  margin-left: 5%;
+ 
+  
+}
+
+.estrutura h2, h3{
+  /*border: 1px solid blue;*/
+  text-align: center;
+  font-family: Trebuchet MS, sans-serif;
+  text-decoration: underline;
+  margin-bottom: 5%;
+    }
+
+
+
+
+
+
+
+/*===============================================Departamento=====================================*/
+
+
+.departamentos{
+
+margin-top: 5%;
+margin-left: 15%;
+margin-bottom: 5%;
+}
+
+#departamentos{
+  /*border:1px dashed orange;*/
+   border-radius: 10px;
+  text-align: justify;
+  width:auto;
+
+}
+
+#departamentos:hover{
+  box-shadow: 1px 2px 2px black ;
+}
+
+#departamentos h2{
+  font-family: Trebuchet MS, sans-serif;
+  text-decoration: underline;
+}
+
+.albuns{
+  /*border: 1px solid blue;*/
+  width: 100%;
+}
+
+
+
+
+/*===============================================Tipográfia========================================*/
+.vermelho{ 
+font-size:50px;
+font-style: italic;
+color: green;
+font-weight: bold;
+} 
+
+.letrapreta{
+  font-size: 50px;
+  font-style: italic;
+  color: #000000;
+  font-weight: bold;
+  font-family:Trebuchet MS, sans-serif;
+}
+
+
+.visão h3, .visão h2{
+  font-family: Trebuchet MS, sans-serif;
+  font-style: italic;
+ text-align:center;
+ 
+}
+
+.glyphicon{
+  color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================Rodapé1======================================================*/
+
+footer{
+  background:#000;
+  color: white;
+  padding: 50px 0px 20px 0px;
+  position: relative;
+}
+
+.item-rede-social{
+  float: left;
+   margin: 10px auto;
+      /*border: 1px solid red;*/
+      background:#000;
+}
+
+.item-rede-social img{
+
+  background-color: none;
+}
+
+.redes{
+   margin-left: 40%;
+   margin-right: auto;
+}
+
+.redes img{
+  width: 40px;
+
+}
+
+ footer .redes a:hover{
+  color: #9bf0e1;
+  background:none;
+  }
+
+.min img{
+  width: 60%;
+  margin-left: 18%;
+  
+}
+
+
+.rodape1{
+  /*border:1px dashed white;*/
+}
+
+.rodape1 h4{
+  text-align: center;
+  height: 30px;
+  margin-bottom: 4%;
+  
+}
+
+.borda{
+    border-top:4px solid green;
+}
+
+
+.rodape1 a{
+  color: white;
+  list-style-type: none;
+
+}
+
+.rodape1 a:hover{
+  color: green;
+  text-decoration: none;
+}
+
+
+/* ==============================Rodapé2======================================================*/
+
+.rodape2{
+  text-align: center;
+  border-top: 0.5px solid green;
+  
+}
